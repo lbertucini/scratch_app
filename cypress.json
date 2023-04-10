@@ -1,0 +1,15 @@
+{
+    "baseUrl": "https://notes-serverless-app.com",
+    "defaultCommandTimeout": 30000,
+    "requestTimeout": 20000,
+    "experimentalSessionSupport": true,
+    "chromeWebSecurity": false,
+    "experimentalStudio": true,
+    "env": {
+        "USER_EMAIL": "d43a249c-fd61-4a21-95d2-ea0eb63c4daf@sidt6wes.mailosaur.net",
+        "USER_PASSWORD": "s3Cre7P@sSw0rd",
+        "MAILOSAUR_SERVER_ID": "sidt6wes",
+        "MAILOSAUR_API_KEY": "43SQgfRbOP1mIuKuky8HaiB15Ha2cc37",
+        "viewportWidthBreakpoint": 768
+    }
+}
