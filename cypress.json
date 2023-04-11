@@ -5,6 +5,7 @@
     "experimentalSessionSupport": true,
     "chromeWebSecurity": false,
     "experimentalStudio": true,
+    "projectId": "4ecv8q",
     "env": {
         "USER_EMAIL": "d43a249c-fd61-4a21-95d2-ea0eb63c4daf@sidt6wes.mailosaur.net",
         "USER_PASSWORD": "s3Cre7P@sSw0rd",

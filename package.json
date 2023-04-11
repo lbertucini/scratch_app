@@ -12,8 +12,8 @@
     "test:tablet": "cypress run --config viewportWidth=767,viewportHeight=480 --spec cypress/integration/authenticatedScenarios.spec.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev)",
+  "license": "MIT",
   "devDependencies": {
     "cypress": "^8.2.0",
     "cypress-file-upload": "^5.0.8",
