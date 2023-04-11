@@ -1,7 +1,3 @@
-import 'cypress-file-upload'
-import 'cypress-iframe'
-import 'cypress-mailosaur'
-
 describe('Scenarios where authentication is a pre-requirement', () => {
   beforeEach(() => {
     cy.intercept('GET', '**/notes').as('getNotes')
@@ -35,11 +31,11 @@ describe('Scenarios where authentication is a pre-requirement', () => {
       expect(response.state).to.equal('Complete')
     })
   })
-  
+
   it('logs out', () => {
     cy.visit('/')
-    cy.get('.nav > :nth-child(2) > a').click();
-    cy.get('#email').should('be.visible');
+    cy.get('.nav > :nth-child(2) > a').click()
+    cy.get('#email').should('be.visible')
   })
 
 })
