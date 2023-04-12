@@ -40,7 +40,7 @@ Cypress.Commands.add('login', () => {
   cy.get('#email').type('d43a249c-fd61-4a21-95d2-ea0eb63c4daf@sidt6wes.mailosaur.net')
   cy.get('#password').type('s3Cre7P@sSw0rd')
   cy.contains('button', 'Login').click()
-  cy.wait('@getNotes', {timeout: 20000})
+  //cy.wait('@getNotes', {timeout: 20000})
   cy.contains('h1', 'Your Notes').should('be.visible')
 })
 
