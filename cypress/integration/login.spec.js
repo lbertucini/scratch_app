@@ -1,8 +1,5 @@
-import 'cypress-file-upload'
-import 'cypress-iframe'
-import 'cypress-mailosaur'
+/// <reference path="../support/commands.d.ts" />
 
-// cypress/integration/login.spec.js
 
 it('successfully logs in', () => {
   cy.intercept('GET', '**/notes').as('getNotes')

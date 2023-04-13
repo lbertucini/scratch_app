@@ -1,7 +1,7 @@
 {
   "name": "scratch_app_cypress",
   "version": "1.0.0",
-  "description": "TBD.",
+  "description": "Sample project to demonstrate e2e tests written with Cypress running on GitHub Actions",
   "main": "index.js",
   "scripts": {
     "lint": "eslint cypress/**/*.js",
@@ -11,7 +11,7 @@
     "test": "cypress run --record --tag 'desktop'"
   },
   "keywords": [],
-  "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev)",
+  "author": "Lucas Bertucini",
   "license": "MIT",
   "devDependencies": {
     "cypress": "^8.2.0",
